@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikacja finansowa serwer</title>
+
+</head>
+<body>
+    <form action="./index.html" style="visibility: hidden;">
+        <label for="ServerCmd" >Komenda</label>
+        <input type="text" id="ServerCmd" name="ServerCmd" value="0" required>
+
+        <label for="ServerScreen" >Ekran</label>
+        <input type="text" id="ServerScreen" name="ServerScreen" value="1" required>
+
+        <label for="ServerUsername" >Nazwa</label>
+        <input type="text" id="ServerUsername" name="ServerUsername" >
+        <label for="ServerPass" >Hasło</label>
+        <input type="password" id="ServerPass" name="ServerPass" >
+
+        <input type="submit" id="ServerSubmit">
+    </form>
+
+    <script src="serwer.js"></script>
+</body>
+</html>
